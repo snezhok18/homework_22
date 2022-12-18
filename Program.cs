@@ -12,11 +12,11 @@ Console.WriteLine("Введите второе число: ");
 int num2 = int.Parse(Console.ReadLine()!);
 if (num1 > num2)
 {
-    Console.WriteLine($"Число {num1} больше, а число {num2} меньше")
+    Console.WriteLine($"Число {num1} больше, а число {num2} меньше");
 }
 else
 {
-    Console.WriteLine($"Число {num2} больше, а число {num1} меньше")
+    Console.WriteLine($"Число {num2} больше, а число {num1} меньше");
 }
 
 /*

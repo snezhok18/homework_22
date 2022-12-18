@@ -6,6 +6,8 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
 */
 
+
+
 Console.WriteLine("Введите первое число: ");
 int num1 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число: ");

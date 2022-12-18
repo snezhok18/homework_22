@@ -19,12 +19,35 @@ else
     Console.WriteLine($"Число {num2} больше, а число {num1} меньше");
 }
 
+
+
 /*
 Задача 2: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 2, 3, 7 -> 7
 44 5 78 -> 78
 22 3 9 -> 22
 */
+
+Console.WriteLine("Введите первое число: ");
+int arg1 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите второе число: ");
+int arg2 = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Введите третье число:");
+int arg3 = int.Parse(Console.ReadLine()!);
+if (arg1 > arg2)
+{
+    Console.WriteLine($"Число {arg1} - максимальное из введенных");
+}
+if (arg2 > arg3)
+{
+    Console.WriteLine($"Число {arg2} - максимальное из введенных");
+}
+else
+{
+    Console.WriteLine($"Число {arg3} - максимальное из введенных");
+}
+
+
 
 /*
 Задача 3: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным
